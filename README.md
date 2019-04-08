@@ -27,11 +27,11 @@ Execute os testes da aplicação com o comando:
 
 mvn clean test
 
-Endpoints	Method	Consumes	Produces	Result
-/api/poi?page=size=	GET	-	JSON	Lista todos os pontos inseridos
-/api/poi	POST	JSON	-	Insere um novo ponto
-/api/poi/nearby/poi/nearby?page=&size=&x=&y=	GET	-	JSON	Busca os pontos de interesse baseados em uma localização fornecida
-
+| Endpoints                                    |   Method      | Consumes  |  Produces  | Result                                                            |
+| ---------------------------------------------|:-------------:|:---------:|:----------:|------------------------------------------------------------------:|
+| /api/poi?page=size=                          |    GET        |     -     |    JSON    |Lista todos os pontos inseridos                                    |
+| /api/poi                                     |    POST       |   JSON    |     -      |Insere um novo ponto                                               |
+| /api/poi/nearby/poi/nearby?page=&size=&x=&y= |    GET        |    -      |    JSON    |Busca os pontos de interesse baseado em uma localização fornecida  |
 
 Json para adicionar pontos de interesse
 {
